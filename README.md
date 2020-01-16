@@ -1,7 +1,5 @@
 # service-worker-tutorial
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/marcradziwill/service-worker-tutorial.svg)](https://greenkeeper.io/)
-
 This is a little tutorial to illustrate the usage of service workers
 
 ## What is included
