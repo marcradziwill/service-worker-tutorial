@@ -1,1 +1,1 @@
-console.log('I am other.js.')
+console.log('I am the other.js.')
