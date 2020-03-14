@@ -62,7 +62,7 @@ self.addEventListener('fetch', event => {
       console.log('Network request for ', event.request.url);
       return fetch(event.request)
       .then(response => {
-        return caches.open(staticCacheName).then(cache => {
+        return caches.open(CACHE_NAME).then(cache => {
           cache.put(event.request.url, response.clone());
           return response;
         });
